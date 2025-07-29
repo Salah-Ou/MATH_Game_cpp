@@ -1,8 +1,8 @@
-# Math Quiz Game
-## Overview 
+# 🧠 Math Quiz Game 🧠
+## 📌 Overview 
 The Math Quiz Game is a console-based application that tests and improves your basic arithmetic skills through timed quizzes across four difficulty levels. The game progressively challenges players with addition, subtraction, multiplication, and division problems.
 
-## Features 
+## 🚀 Features 
 ### 1. Game Levels 
 1. <strong> Level 1 : Addition </strong> (20 seconds per question).
 2. <strong> Level 2 : Subtraction </strong> (15 seconds per question).
@@ -24,29 +24,30 @@ The Math Quiz Game is a console-based application that tests and improves your b
 - Random number generation for problems.
 - Timeout handling for unanswered questions.
 
-## How To Play 
+## 🕹️ How To Play 
 ### 1. Installation :
-    - Compile the code using a C++ compiler (tested on Windows).
-    - Requires Windows.h and conio.h libraries.
+    
+- Compile the code using a C++ compiler (tested on Windows).
+- Requires Windows.h and conio.h libraries.
 
 ### 2. Starting the Game :
-    - Run the executable.
-    - Enter your name when prompted.
-    - The game will begin with a countdown.
+- Run the executable.
+- Enter your name when prompted.
+- The game will begin with a countdown.
 
 ### 3. Gameplay :
-    - Solve each math problem within the time limit.
-    - Type your answer and press Enter.
-    - Earn points for correct answers.
-    - Progress through levels by scoring perfectly (5/5).
+- Solve each math problem within the time limit.
+- Type your answer and press Enter.
+- Earn points for correct answers.
+- Progress through levels by scoring perfectly (5/5).
 
 ### 4. Controls :
-    - Numeric input for answers.
-    - Enter key to submit answer.
-    - '1' to continue/retry.
-    - '0' to exit.
+- Numeric input for answers.
+- Enter key to submit answer.
+- '1' to continue/retry.
+- '0' to exit.
 
-## Code Structure
+## 🤖 Code Structure
 - `main() : ` Entry point, handles player introduction.
 - `Adding() : ` Level 1 - Addition problems.
 - `Subtracting() : ` Level 2 - Subtraction problems
@@ -55,11 +56,13 @@ The Math Quiz Game is a console-based application that tests and improves your b
 - `Time() : ` Displays current time.
 - `getInputWithTimeout() : ` Handles timed input.
 
-## Customization Options
+## 🔎 Customization Options
 - You can modify :
     - Time limits by changing the timeout values.
     - Difficulty by adjusting the random number ranges.
     - Visual style by editing the color codes.
     - Sound effects by modifying Beep() parameters.
+ 
+### Enjoy testing and improving your math skills with this interactive quiz game!
 
 
